@@ -80,7 +80,7 @@ img {
   align-items: center;
 }
 
-.navigation-list-link {
+.navigation-list__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -93,12 +93,12 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation-list-link:hover,
-.navigation-list-link:focus {
+.navigation-list__link:hover,
+.navigation-list__link:focus {
   color: var(--accent-color);
 }
 
-.contacts-list-link {
+.contacts-list__link {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -113,8 +113,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-list-link:hover,
-.contacts-list-link:focus {
+.contacts-list__link:hover,
+.contacts-list__link:focus {
   color: var(--accent-color);
 }
 
@@ -128,21 +128,21 @@ img {
   margin-left: auto;
 }
 
-.navigation-list-item > a {
+.navigation-list__item > a {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.navigation-list-item {
+.navigation-list__item {
   position: relative;
 }
 
-.navigation-list-item > .current {
+.navigation-list__item > .current {
   color: var(--accent-color);
 }
 
-.navigation-list-item > .current::after {
+.navigation-list__item > .current::after {
   content: '';
   position: absolute;
   bottom: -1px;
@@ -154,11 +154,11 @@ img {
   border-radius: 2px;
 }
 
-.navigation-list-item:not(:last-child) {
+.navigation-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contacts-list-item + .contacts-list-item {
+.contacts-list__item + .contacts-list__item {
   margin-left: 30px;
 }
 
@@ -177,8 +177,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-list-link:focus > .envelope,
-.contacts-list-link:hover > .envelope {
+.contacts-list__link:focus > .envelope,
+.contacts-list__link:hover > .envelope {
   fill: var(--accent-color);
 }
 
@@ -194,8 +194,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-list-link:focus > .smartphone,
-.contacts-list-link:hover > .smartphone {
+.contacts-list__link:focus > .smartphone,
+.contacts-list__link:hover > .smartphone {
   fill: var(--accent-color);
 }
 
@@ -331,7 +331,7 @@ img {
 }
 
 /* ----------------------------------------Кнопки---------------------------------------- */
-.button-order {
+.main-section__button {
   padding: 10px 32px;
 
   font-family: inherit;
@@ -351,8 +351,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-order:hover,
-.button-order:focus {
+.main-section__button:hover,
+.main-section__button:focus {
   background: #188ce8;
 }
 
@@ -594,7 +594,7 @@ img {
     url(../img/background-image-hero.jpg);
 }
 
-.main-title {
+.main-section__title {
   margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
