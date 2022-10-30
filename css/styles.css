@@ -173,7 +173,7 @@ img {
 /* -------------------------------------------іконки------------------------------------------- */
 
 /* ---------------------------Хедер іконки--------------------------- */
-.envelope {
+.contacts-list__envelope {
   margin-right: 10px;
 
   width: 16px;
@@ -185,12 +185,12 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-list__link:focus > .envelope,
-.contacts-list__link:hover > .envelope {
+.contacts-list__link:focus > .contacts-list__envelope,
+.contacts-list__link:hover > .contacts-list__envelope {
   fill: var(--accent-color);
 }
 
-.smartphone {
+.contacts-list__smartphone {
   margin-right: 10px;
 
   width: 10px;
@@ -202,8 +202,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-list__link:focus > .smartphone,
-.contacts-list__link:hover > .smartphone {
+.contacts-list__link:focus > .contacts-list__smartphone,
+.contacts-list__link:hover > .contacts-list__smartphone {
   fill: var(--accent-color);
 }
 
@@ -339,7 +339,7 @@ img {
 }
 
 /* ----------------------------------------Кнопки---------------------------------------- */
-.main-section__button {
+.section-main__button {
   padding: 10px 32px;
 
   font-family: inherit;
@@ -359,8 +359,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-section__button:hover,
-.main-section__button:focus {
+.section-main__button:hover,
+.section-main__button:focus {
   background: #188ce8;
 }
 
@@ -501,7 +501,7 @@ img {
   text-decoration: none;
 }
 
-.page-footer__flex {
+.page-footer--flex {
   display: flex;
   align-items: baseline;
 }
@@ -588,7 +588,7 @@ img {
 }
 
 /* ----------------------------------------Index.html---------------------------------------- */
-.main-section.section {
+.section-main.section {
   margin: 0 auto;
   padding-bottom: 200px;
   padding-top: 200px;
@@ -601,7 +601,7 @@ img {
     url(../img/background-image-hero.jpg);
 }
 
-.main-section__title {
+.section-main__title {
   margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
