@@ -200,7 +200,7 @@ img {
 }
 
 /* ---------------------------Index іконки--------------------------- */
-.icon-advantage-flex {
+.section-advantage__flex {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,7 +211,7 @@ img {
   border-radius: 4px;
 }
 
-.icon-advantage {
+.section-advantage__icon {
   width: 70px;
   height: 70px;
 }
@@ -608,7 +608,7 @@ img {
   color: #ffffff;
 }
 
-.advantage-title {
+.section-advantage__title {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -618,20 +618,20 @@ img {
   text-transform: uppercase;
 }
 
-.advantage-list {
+.section-advantage__list {
   display: flex;
 }
 
-.advantage-list-item:not(:last-child) {
+.section-advantage__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.advantage-list-item {
+.section-advantage__item {
   list-style: none;
   width: calc((100% - 90px) / 4);
 }
 
-.advantage-description {
+.section-advantage__description {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
