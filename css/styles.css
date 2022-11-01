@@ -13,7 +13,7 @@ body {
 }
 
 /* ----------------------------------------Скидування стилів/Утиліти---------------------------------------- */
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -33,9 +33,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
-.container {
+/* .container {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -47,19 +47,19 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 /* ----------------------------------------Хедер---------------------------------------- */
-.page-header {
+/* .page-header {
   border-bottom: 1px solid #ececec;
 }
 
 .page-header > .container {
   display: flex;
   align-items: center;
-}
+} */
 
-.logo {
+/* .logo {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -81,9 +81,9 @@ img {
   display: block;
   margin-bottom: 20px;
   color: #ffffff;
-}
+} */
 
-.navigation {
+/* .navigation {
   display: flex;
   align-items: center;
 }
@@ -104,9 +104,9 @@ img {
 .navigation-list__link:hover,
 .navigation-list__link:focus {
   color: var(--accent-color);
-}
+} */
 
-.contacts-list__link {
+/* .contacts-list__link {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -124,9 +124,9 @@ img {
 .contacts-list__link:hover,
 .contacts-list__link:focus {
   color: var(--accent-color);
-}
+} */
 
-.navigation-list,
+/* .navigation-list,
 .contacts-list {
   display: flex;
   list-style: none;
@@ -134,23 +134,23 @@ img {
 
 .container .contacts-list {
   margin-left: auto;
-}
+} */
 
-.navigation-list__item > a {
+/* .navigation-list__item > .navigation-list__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-}
+} */
 
-.navigation-list__item {
+/* .navigation-list__item {
   position: relative;
-}
+} */
 
-.navigation-list__item > .current {
+/* .navigation-list__item > .current {
   color: var(--accent-color);
-}
+} */
 
-.navigation-list__item > .current::after {
+/* .navigation-list__item > .current::after {
   content: '';
   position: absolute;
   bottom: -1px;
@@ -160,20 +160,20 @@ img {
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
-}
+} */
 
-.navigation-list__item:not(:last-child) {
+/* .navigation-list__item:not(:last-child) {
   margin-right: 50px;
-}
+} */
 
-.contacts-list__item + .contacts-list__item {
+/* .contacts-list__item + .contacts-list__item {
   margin-left: 30px;
-}
+} */
 
 /* -------------------------------------------іконки------------------------------------------- */
 
 /* ---------------------------Хедер іконки--------------------------- */
-.contacts-list__envelope {
+/* .contacts-list__envelope {
   margin-right: 10px;
 
   width: 16px;
@@ -183,14 +183,14 @@ img {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.contacts-list__link:focus > .contacts-list__envelope,
+/* .contacts-list__link:focus > .contacts-list__envelope,
 .contacts-list__link:hover > .contacts-list__envelope {
   fill: var(--accent-color);
-}
+} */
 
-.contacts-list__smartphone {
+/* .contacts-list__smartphone {
   margin-right: 10px;
 
   width: 10px;
@@ -200,12 +200,12 @@ img {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.contacts-list__link:focus > .contacts-list__smartphone,
+/* .contacts-list__link:focus > .contacts-list__smartphone,
 .contacts-list__link:hover > .contacts-list__smartphone {
   fill: var(--accent-color);
-}
+} */
 
 /* ---------------------------Index іконки--------------------------- */
 .section-advantage__flex {
