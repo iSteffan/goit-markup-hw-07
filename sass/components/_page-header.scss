@@ -17,7 +17,7 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--text-color-main);
+    color: $textColorMain;
     text-decoration: none;
 
     transition-property: color;
@@ -37,7 +37,7 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--text-color-secondary);
+    color: $textColorSecondary;
     text-decoration: none;
 
     transition-property: color;
