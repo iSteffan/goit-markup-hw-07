@@ -1,5 +1,4 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--text-color-main);
-    background-color: var(--background-color-main);
-}
+@import "utils/variables";
+@import "components/logo";
+@import "components/page-header";
+@import "components/page-footer";
