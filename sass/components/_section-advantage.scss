@@ -1,0 +1,45 @@
+.section-advantage__title {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.section-advantage__list {
+    display: flex;
+}
+
+.section-advantage__item {
+    list-style: none;
+    width: calc((100% - 90px) / 4);
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.section-advantage__description {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $textColorSecondary;
+}
+
+.section-advantage__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+}
+
+.section-advantage__icon {
+    width: 70px;
+    height: 70px;
+}
