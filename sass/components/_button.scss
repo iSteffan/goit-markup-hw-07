@@ -1,3 +1,5 @@
+@import "../utils/mixin";
+
 .section-main__button {
     padding: 10px 32px;
 
@@ -13,9 +15,7 @@
     cursor: pointer;
     border-color: transparent;
 
-    transition-property: background;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition(background);
 
     &:hover,
     &:focus {
@@ -38,8 +38,7 @@
     cursor: pointer;
     border-color: transparent;
 
-    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include advanced-transition(background, color, box-shadow);
 
     &:hover,
     &:focus {
@@ -67,7 +66,7 @@
     cursor: pointer;
     border-color: transparent;
 
-    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition(background);
 
     &:hover,
     &:focus {

@@ -1,3 +1,5 @@
+@import "../utils/mixin";
+
 .modal__button {
     position: absolute;
     top: 8px;
@@ -8,7 +10,7 @@
     background-color: inherit;
     fill: #000000;
 
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition (fill);
 
     &:hover,
     &:focus {
@@ -30,7 +32,7 @@
     cursor: pointer;
     border-color: transparent;
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition (background-color);
 
     &:hover,
     &:focus {
@@ -48,7 +50,7 @@
     opacity: 1;
     background: rgba(0, 0, 0, 0.2);
 
-    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition (opacity, 500ms);
 }
 
 .backdrop.is-hidden {
@@ -74,7 +76,8 @@
     border-radius: 4px;
 
     transform: translate(-50%, -50%) scale(1) rotatey(360deg);
-    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    @include transition (transform, 500ms);
 }
 
 .modal__title {
@@ -116,7 +119,7 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include double-transition (border, outline);
 
     &:focus {
         outline: none;
@@ -151,7 +154,7 @@
     top: 11px;
     left: 12px;
 
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition (fill);
 
     .form-field__input:focus + & {
             fill: $accentColor;
@@ -199,7 +202,7 @@
     border-radius: 2px;
     fill: #fff;
 
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include double-transition (fill, border);
 
     .policy__checkbox:checked ~ & {
         border: 0;

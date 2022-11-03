@@ -1,6 +1,6 @@
 @import "utils/reset";
 @import "utils/variables";
-@import "utils/utilites.scss";
+@import "utils/utilites";
 @import "components/logo";
 @import "components/page-header";
 @import "components/page-footer";
@@ -12,3 +12,4 @@
 @import "components/section-team";
 @import "components/section-client";
 @import "components/portfolio";
+@import "utils/mixin";
