@@ -23,54 +23,6 @@ img {
 
 /* ----------------------------------------Колір---------------------------------------- */
 /* ----------------------------------------Шрифт---------------------------------------- */
-body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
-  background-color: #ffffff;
-}
-
-.current {
-  color: #2196f3;
-}
-.current::after {
-  content: "";
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background-color: #2196f3;
-  border-radius: 2px;
-}
-
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1200px;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-/* ----------------------------------------Прихований контент---------------------------------------- */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -1180,4 +1132,52 @@ body {
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  background-color: #ffffff;
+}
+
+.current {
+  color: #2196f3;
+}
+.current::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #2196f3;
+  border-radius: 2px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* ----------------------------------------Прихований контент---------------------------------------- */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */
