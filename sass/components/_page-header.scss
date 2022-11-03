@@ -1,3 +1,5 @@
+@import "../utils/mixin";
+
 .page-header {
     border-bottom: 1px solid #ececec;
 
@@ -20,9 +22,8 @@
     color: $textColorMain;
     text-decoration: none;
 
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @include transition(color);
 
     &:hover,
     &:focus {
@@ -40,9 +41,7 @@
     color: $textColorSecondary;
     text-decoration: none;
 
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition(color);
 
     &:hover,
     &:focus {
@@ -95,9 +94,7 @@
     height: 16px;
     fill: #757575;
 
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition(fill);
 
     .contacts-list__link:focus &,
     .contacts-list__link:hover & {
@@ -112,9 +109,7 @@
     height: 16px;
     fill: #757575;
 
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition(fill);
 
     .contacts-list__link:focus &,
     .contacts-list__link:hover & {

@@ -1,3 +1,5 @@
+@import "../utils/mixin";
+
 .section-team {
     background-color: #f5f4fa;
 }
@@ -54,9 +56,7 @@
 .social-list__icon {
     fill: #afb1b8;
 
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition(fill);
 
     .social-list__link:hover &,
     .social-list__link:focus & {
@@ -74,9 +74,7 @@
     border-radius: 50%;
     background-color: #ffffff;
 
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition(background-color);
 
     &:hover,
     &:focus {

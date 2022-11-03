@@ -1,3 +1,4 @@
+@import "../utils/mixin";
 /* ---------------------------Футер іконки--------------------------- */
 .join__item {
     list-style: none;
@@ -13,9 +14,7 @@
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition(background-color);
 
     &:hover,
     &:focus {
@@ -44,9 +43,8 @@
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @include transition(color);
 
     &:hover,
     &:focus {
